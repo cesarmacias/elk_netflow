@@ -1,9 +1,44 @@
-<mxfile host="app.diagrams.net" modified="2022-10-28T21:45:58.285Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="BpppAnAROJKrKL7rk5Jy" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-28T21:50:34.875Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="xa9mjBjDDwdQzJZAB9mm" version="20.5.1" type="github">
   <diagram id="nz11MDpfT53MlEPlpADr" name="Página-1">
     <mxGraphModel dx="1038" dy="589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="plDygzmKMReSjtBEfzVS-1" value="Elasticsearch cluster" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="480" y="438" width="200" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="plDygzmKMReSjtBEfzVS-2" value="elastic01" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="plDygzmKMReSjtBEfzVS-4" value="elastic02" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="plDygzmKMReSjtBEfzVS-5" value="elastic03" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="plDygzmKMReSjtBEfzVS-7" value="docker" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="80" y="480" width="340" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="plDygzmKMReSjtBEfzVS-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="plDygzmKMReSjtBEfzVS-7" source="plDygzmKMReSjtBEfzVS-11" target="plDygzmKMReSjtBEfzVS-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="plDygzmKMReSjtBEfzVS-11" value="nflow-generator" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="plDygzmKMReSjtBEfzVS-7">
+          <mxGeometry x="20" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="plDygzmKMReSjtBEfzVS-12" value="elastiflow" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="plDygzmKMReSjtBEfzVS-7">
+          <mxGeometry x="200" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="plDygzmKMReSjtBEfzVS-14" value="kibana" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="plDygzmKMReSjtBEfzVS-7">
+          <mxGeometry x="110" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="plDygzmKMReSjtBEfzVS-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="plDygzmKMReSjtBEfzVS-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="plDygzmKMReSjtBEfzVS-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="plDygzmKMReSjtBEfzVS-14" target="plDygzmKMReSjtBEfzVS-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
